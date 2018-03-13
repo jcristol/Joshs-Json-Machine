@@ -10,8 +10,8 @@
 
 ### Sample Result
 
-```
-Submitted {  
+```json
+{  
    "your_email_address":"joshcristol@gmail.com",
    "unique_emails":[  
       "walter.elwyn@yahoo.com",
@@ -193,8 +193,6 @@ Submitted {
       "morissette.lalla@kuhicmuller.com"
    ]
 }
-
-Post Response <Response [200]>
 ```
 
 - Submitted is the JSON submitted to the server.
