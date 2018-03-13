@@ -11,9 +11,9 @@
 ### Sample Result
 
 ```
-Submitted {
+Submitted {  
    "your_email_address":"joshcristol@gmail.com",
-   "unique_emails":[
+   "unique_emails":[  
       "walter.elwyn@yahoo.com",
       "helyn67@cruickshankmckenzie.com",
       "salvatore21@hintz.com",
@@ -118,57 +118,12 @@ Submitted {
       "bahringer.karl@yahoo.com",
       "morissette.lalla@kuhicmuller.com"
    ],
-   "user_domain_counts":{
+   "user_domain_counts":{  
       "yahoo.com":18,
-      "cruickshankmckenzie.com":1,
-      "hintz.com":1,
       "gmail.com":18,
-      "hotmail.com":22,
-      "quitzon.net":1,
-      "wolfschaefer.com":1,
-      "hodkiewicz.info":1,
-      "denesik.com":1,
-      "goodwinlind.info":1,
-      "reichel.com":1,
-      "moen.net":1,
-      "fishercremin.com":1,
-      "ruecker.com ":1,
-      "stanton.com":1,
-      "sauer.biz":1,
-      "jacobson.biz":1,
-      "bernhardhills.info":1,
-      "swaniawskiterry.info":1,
-      "beer.com":1,
-      "toy.org":1,
-      "lakinwalker.info":1,
-      "quitzon.net ":1,
-      "schmidt.info":1,
-      "greenholtconsidine.com":1,
-      "greendale.edu":1,
-      "howe.com":1,
-      "koelpin.com":1,
-      "hansen.com":1,
-      "strosin.info":1,
-      "schusterlabadie.com":1,
-      "ebertrunte.net":1,
-      "ankunding":1,
-      "ruecker.com":1,
-      "cristhalvorson.org":1,
-      "collins.biz":1,
-      "auer.net":1,
-      "lehneroconner.com":1,
-      "volkmanrosenbaum.net":1,
-      "hotmail.com ":1,
-      "koelpinfeeney.net":1,
-      "heidenreich.com":1,
-      "oreilly.info":1,
-      "keebler.com":1,
-      "littel.biz":1,
-      "kozey.com":1,
-      "block.com":1,
-      "kuhicmuller.com":1
+      "hotmail.com":22
    },
-   "april_emails":[
+   "april_emails":[  
       "walter.elwyn@yahoo.com",
       "helyn67@cruickshankmckenzie.com",
       "wyman.junious@gmail.com",
