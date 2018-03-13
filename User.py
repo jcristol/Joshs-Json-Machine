@@ -48,12 +48,6 @@ class User:
     self.logins = []
     self.flags = {"visitedInApril" : False}
   
-  def __eq__(self, other):
-    return self.email == other.email
-
-  def __hash__(self):
-    return hash(self.email)
-
   def login(self, timeString):
     if not User.validateData(timeString):
       eprint("Invalid Date {}".format(timeString))
