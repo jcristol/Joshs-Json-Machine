@@ -1,4 +1,5 @@
 import requests
+import json
 import ApiFunctions as api
 
 apiUrl = " https://us-central1-marcy-playground.cloudfunctions.net/ordoroCodingTest"
@@ -23,5 +24,5 @@ my_response = {
 }
 
 r = requests.post(apiUrl, json=my_response)
-print("Submitted {}".format(my_response), "\n")
+print("Submitted {}".format(json.dumps(my_response)), "\n")
 print("Post Response {}".format(r), "\n")
