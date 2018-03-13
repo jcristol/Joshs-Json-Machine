@@ -36,7 +36,7 @@ class User:
   def __init__(self, email):
     if not User.validateData(email):
       print("Invalid Email {}".format(email), file=sys.stderr)
-      raise Exception()
+      raise Exception("Invalid Email Exception {}".format(email))
     self.email = email
     self.userName = email.split('@')[0]
     self.domain = email.split('@')[1]
