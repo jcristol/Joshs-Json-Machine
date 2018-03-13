@@ -17,3 +17,13 @@ I worst case for my program is O(N) where N is the number of data points I was g
 
 <u>Interesting Stuff</u>
 
+I designed my solution to using three python modules. The first is a main module that runs the program at a high level and communicates to the server. The next module is User module which consists of a class called User that encapsulates everything I think it means to be a User. I made logins a list of the User and established a dictionary of flags that could be extended to have extra functionality similar to the april_emails function. Lastly the ApiFunction module encapsulates the logic that gives the user of the program the results. The functions defined inside the module both build a dict of Users and query the dict to find out the things we are interested in.
+
+<u>Weird Stuff</u>
+
+1. I tried to not use any not standard python libraries so I would not have to have any sort of requirements file.
+2. Because of this first constraint I stumbled into an odd problem. Check out the function inside User called timeZoneColonFix(). Look into the link I provided there. But the short of it is the timestamp strings that were provided in the response data does not follow the date time standard in python3.
+
+
+
+I really had fun doing this so I hope you enjoy my code. 😎
