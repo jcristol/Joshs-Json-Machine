@@ -23,5 +23,5 @@ my_response = {
 }
 
 r = requests.post(apiUrl, json=my_response)
-print("Submitted my_response {}".format(my_response), "\n")
-print("Post response {}".format(r), "\n")
+print("Submitted {}".format(my_response), "\n")
+print("Post Response {}".format(r), "\n")
