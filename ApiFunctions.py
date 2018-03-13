@@ -27,7 +27,7 @@ def registerLogin(access, emailToUserDict):
 def usersPerDomain(emailToUserDict):
   """
   emailToUserDict - dict of all users maps from email to User (User objects) 
-  returns - a Counter of domains to number of usernames that use that domain 
+  returns - a dict of domains that have a user count greater than 1 
   """
   domains = cll.Counter()
   for _, user in emailToUserDict.items():
