@@ -1,10 +1,5 @@
-from __future__ import print_function
 import sys
 import datetime as dt
-
-
-def eprint(*args, **kwargs):
-    print(*args, file=sys.stderr, **kwargs)
 
 class User:
 
@@ -40,7 +35,7 @@ class User:
 
   def __init__(self, email):
     if not User.validateData(email):
-      eprint("Invalid Email {}".format(email))
+      print("Invalid Email {}".format(email), file=sys.stderr)
       raise Exception()
     self.email = email
     self.userName = email.split('@')[0]
@@ -50,7 +45,7 @@ class User:
   
   def login(self, timeString):
     if not User.validateData(timeString):
-      eprint("Invalid Date {}".format(timeString))
+      print("Invalid Date {}".format(timeString), file=sys.stderr)
       return
     date = dt.datetime.strptime(User.timeZoneColonFix(timeString), "%Y-%m-%dT%H:%M:%S%z")
     self.flags["visitedInApril"] = User.aprilCheck(date)
