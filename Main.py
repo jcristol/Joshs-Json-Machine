@@ -19,7 +19,7 @@ aprilBois = api.aprilUsers(users)
 my_response = {
   "your_email_address" : "joshcristol@gmail.com",
   "unique_emails" : emails,
-  "user_domain_counts" : dict(domains),
+  "user_domain_counts" : domains,
   "april_emails" : aprilBois
 }
 

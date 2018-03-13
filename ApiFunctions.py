@@ -32,7 +32,11 @@ def usersPerDomain(emailToUserDict):
   domains = cll.Counter()
   for _, user in emailToUserDict.items():
     domains[user.domain] += 1
-  return domains
+  result = {}
+  for domain, count in domains.items():
+    if count > 1:
+      result[domain] = count
+  return result
 
 def aprilUsers(emailToUserDict):
   """
